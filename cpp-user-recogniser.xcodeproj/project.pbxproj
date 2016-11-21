@@ -1,0 +1,302 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D87BCE391DE3A6FF0030672F /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D87BCE381DE3A6FF0030672F /* main.cpp */; };
+		D87BCE411DE3A79F0030672F /* CodeReader.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D87BCE3F1DE3A79F0030672F /* CodeReader.cpp */; };
+		D87BCE441DE3B0490030672F /* BarcodeObject.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D87BCE421DE3B0490030672F /* BarcodeObject.cpp */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		D87BCE331DE3A6FF0030672F /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		D87BCE351DE3A6FF0030672F /* cpp-user-recogniser */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "cpp-user-recogniser"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D87BCE381DE3A6FF0030672F /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		D87BCE3F1DE3A79F0030672F /* CodeReader.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = CodeReader.cpp; sourceTree = "<group>"; };
+		D87BCE401DE3A79F0030672F /* CodeReader.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = CodeReader.hpp; sourceTree = "<group>"; };
+		D87BCE421DE3B0490030672F /* BarcodeObject.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = BarcodeObject.cpp; sourceTree = "<group>"; };
+		D87BCE431DE3B0490030672F /* BarcodeObject.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = BarcodeObject.hpp; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D87BCE321DE3A6FF0030672F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D87BCE2C1DE3A6FF0030672F = {
+			isa = PBXGroup;
+			children = (
+				D87BCE371DE3A6FF0030672F /* cpp-user-recogniser */,
+				D87BCE361DE3A6FF0030672F /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		D87BCE361DE3A6FF0030672F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D87BCE351DE3A6FF0030672F /* cpp-user-recogniser */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D87BCE371DE3A6FF0030672F /* cpp-user-recogniser */ = {
+			isa = PBXGroup;
+			children = (
+				D87BCE381DE3A6FF0030672F /* main.cpp */,
+				D87BCE451DE3B41C0030672F /* CodeReader */,
+				D87BCE461DE3B4260030672F /* BarcodeObject */,
+			);
+			path = "cpp-user-recogniser";
+			sourceTree = "<group>";
+		};
+		D87BCE451DE3B41C0030672F /* CodeReader */ = {
+			isa = PBXGroup;
+			children = (
+				D87BCE401DE3A79F0030672F /* CodeReader.hpp */,
+				D87BCE3F1DE3A79F0030672F /* CodeReader.cpp */,
+			);
+			name = CodeReader;
+			sourceTree = "<group>";
+		};
+		D87BCE461DE3B4260030672F /* BarcodeObject */ = {
+			isa = PBXGroup;
+			children = (
+				D87BCE431DE3B0490030672F /* BarcodeObject.hpp */,
+				D87BCE421DE3B0490030672F /* BarcodeObject.cpp */,
+			);
+			name = BarcodeObject;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D87BCE341DE3A6FF0030672F /* cpp-user-recogniser */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D87BCE3C1DE3A6FF0030672F /* Build configuration list for PBXNativeTarget "cpp-user-recogniser" */;
+			buildPhases = (
+				D87BCE311DE3A6FF0030672F /* Sources */,
+				D87BCE321DE3A6FF0030672F /* Frameworks */,
+				D87BCE331DE3A6FF0030672F /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "cpp-user-recogniser";
+			productName = "cpp-user-recogniser";
+			productReference = D87BCE351DE3A6FF0030672F /* cpp-user-recogniser */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D87BCE2D1DE3A6FF0030672F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0800;
+				ORGANIZATIONNAME = joemcalister;
+				TargetAttributes = {
+					D87BCE341DE3A6FF0030672F = {
+						CreatedOnToolsVersion = 8.0;
+						DevelopmentTeam = 9KCQBQHB3F;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = D87BCE301DE3A6FF0030672F /* Build configuration list for PBXProject "cpp-user-recogniser" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = D87BCE2C1DE3A6FF0030672F;
+			productRefGroup = D87BCE361DE3A6FF0030672F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D87BCE341DE3A6FF0030672F /* cpp-user-recogniser */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D87BCE311DE3A6FF0030672F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D87BCE391DE3A6FF0030672F /* main.cpp in Sources */,
+				D87BCE441DE3B0490030672F /* BarcodeObject.cpp in Sources */,
+				D87BCE411DE3A79F0030672F /* CodeReader.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		D87BCE3A1DE3A6FF0030672F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		D87BCE3B1DE3A6FF0030672F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		D87BCE3D1DE3A6FF0030672F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = 9KCQBQHB3F;
+				HEADER_SEARCH_PATHS = /usr/local/include;
+				LIBRARY_SEARCH_PATHS = /usr/local/lib;
+				OTHER_LDFLAGS = (
+					"-lopencv_core",
+					"-lopencv_highgui",
+					"-lopencv_imgproc",
+					"-lopencv_videoio",
+					"-lzbar",
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		D87BCE3E1DE3A6FF0030672F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = 9KCQBQHB3F;
+				HEADER_SEARCH_PATHS = /usr/local/include;
+				LIBRARY_SEARCH_PATHS = /usr/local/lib;
+				OTHER_LDFLAGS = (
+					"-lopencv_core",
+					"-lopencv_highgui",
+					"-lopencv_imgproc",
+					"-lopencv_videoio",
+					"-lzbar",
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D87BCE301DE3A6FF0030672F /* Build configuration list for PBXProject "cpp-user-recogniser" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D87BCE3A1DE3A6FF0030672F /* Debug */,
+				D87BCE3B1DE3A6FF0030672F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D87BCE3C1DE3A6FF0030672F /* Build configuration list for PBXNativeTarget "cpp-user-recogniser" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D87BCE3D1DE3A6FF0030672F /* Debug */,
+				D87BCE3E1DE3A6FF0030672F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D87BCE2D1DE3A6FF0030672F /* Project object */;
+}
