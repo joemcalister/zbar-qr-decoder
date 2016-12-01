@@ -5,9 +5,9 @@ Barcode detection and decoding using OpenCV 3.0 and ZBar.
 OpenCV 3.0,
 ZBar.
 
-# How to Install OpenCV and ZBar
-OpenCV 3.0 can be found at [opencv.org](http://opencv.org),
-The easiest way to install ZBar is with Brew,
+## How to Install OpenCV and ZBar
+OpenCV 3.0 can be found at [opencv.org](http://opencv.org).
+The easiest way to install ZBar is with Brew.
 Once Brew is installed simply type
 ```
 Brew install ZBar
