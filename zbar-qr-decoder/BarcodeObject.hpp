@@ -1,6 +1,6 @@
 //
 //  BarcodeObject.hpp
-//  cpp-user-recogniser
+//  zbar-qr-decoder
 //
 //  Created by Joe on 21/11/2016.
 //  Copyright © 2016 joemcalister. All rights reserved.

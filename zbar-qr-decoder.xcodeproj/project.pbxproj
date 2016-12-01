@@ -7,13 +7,13 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		D87BCE391DE3A6FF0030672F /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D87BCE381DE3A6FF0030672F /* main.cpp */; };
-		D87BCE411DE3A79F0030672F /* CodeReader.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D87BCE3F1DE3A79F0030672F /* CodeReader.cpp */; };
-		D87BCE441DE3B0490030672F /* BarcodeObject.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D87BCE421DE3B0490030672F /* BarcodeObject.cpp */; };
+		D8D472B01DF074EF00F1BA47 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D8D472AF1DF074EF00F1BA47 /* main.cpp */; };
+		D8D472BA1DF0750D00F1BA47 /* BarcodeObject.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D8D472B61DF0750D00F1BA47 /* BarcodeObject.cpp */; };
+		D8D472BB1DF0750D00F1BA47 /* CodeReader.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D8D472B81DF0750D00F1BA47 /* CodeReader.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
-		D87BCE331DE3A6FF0030672F /* CopyFiles */ = {
+		D8D472AA1DF074EF00F1BA47 /* CopyFiles */ = {
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 2147483647;
 			dstPath = /usr/share/man/man1/;
@@ -25,16 +25,16 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		D87BCE351DE3A6FF0030672F /* cpp-user-recogniser */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "cpp-user-recogniser"; sourceTree = BUILT_PRODUCTS_DIR; };
-		D87BCE381DE3A6FF0030672F /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
-		D87BCE3F1DE3A79F0030672F /* CodeReader.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = CodeReader.cpp; sourceTree = "<group>"; };
-		D87BCE401DE3A79F0030672F /* CodeReader.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = CodeReader.hpp; sourceTree = "<group>"; };
-		D87BCE421DE3B0490030672F /* BarcodeObject.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = BarcodeObject.cpp; sourceTree = "<group>"; };
-		D87BCE431DE3B0490030672F /* BarcodeObject.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = BarcodeObject.hpp; sourceTree = "<group>"; };
+		D8D472AC1DF074EF00F1BA47 /* zbar-qr-decoder */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "zbar-qr-decoder"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D8D472AF1DF074EF00F1BA47 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		D8D472B61DF0750D00F1BA47 /* BarcodeObject.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = BarcodeObject.cpp; sourceTree = "<group>"; };
+		D8D472B71DF0750D00F1BA47 /* BarcodeObject.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = BarcodeObject.hpp; sourceTree = "<group>"; };
+		D8D472B81DF0750D00F1BA47 /* CodeReader.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = CodeReader.cpp; sourceTree = "<group>"; };
+		D8D472B91DF0750D00F1BA47 /* CodeReader.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = CodeReader.hpp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		D87BCE321DE3A6FF0030672F /* Frameworks */ = {
+		D8D472A91DF074EF00F1BA47 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -44,118 +44,118 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		D87BCE2C1DE3A6FF0030672F = {
+		D8D472A31DF074EF00F1BA47 = {
 			isa = PBXGroup;
 			children = (
-				D87BCE371DE3A6FF0030672F /* cpp-user-recogniser */,
-				D87BCE361DE3A6FF0030672F /* Products */,
+				D8D472AE1DF074EF00F1BA47 /* zbar-qr-decoder */,
+				D8D472AD1DF074EF00F1BA47 /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		D87BCE361DE3A6FF0030672F /* Products */ = {
+		D8D472AD1DF074EF00F1BA47 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				D87BCE351DE3A6FF0030672F /* cpp-user-recogniser */,
+				D8D472AC1DF074EF00F1BA47 /* zbar-qr-decoder */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		D87BCE371DE3A6FF0030672F /* cpp-user-recogniser */ = {
+		D8D472AE1DF074EF00F1BA47 /* zbar-qr-decoder */ = {
 			isa = PBXGroup;
 			children = (
-				D87BCE381DE3A6FF0030672F /* main.cpp */,
-				D87BCE451DE3B41C0030672F /* CodeReader */,
-				D87BCE461DE3B4260030672F /* BarcodeObject */,
+				D8D472BC1DF0757F00F1BA47 /* BarcodeObject */,
+				D8D472BD1DF0759400F1BA47 /* CodeReader */,
+				D8D472AF1DF074EF00F1BA47 /* main.cpp */,
 			);
-			path = "cpp-user-recogniser";
+			path = "zbar-qr-decoder";
 			sourceTree = "<group>";
 		};
-		D87BCE451DE3B41C0030672F /* CodeReader */ = {
+		D8D472BC1DF0757F00F1BA47 /* BarcodeObject */ = {
 			isa = PBXGroup;
 			children = (
-				D87BCE401DE3A79F0030672F /* CodeReader.hpp */,
-				D87BCE3F1DE3A79F0030672F /* CodeReader.cpp */,
-			);
-			name = CodeReader;
-			sourceTree = "<group>";
-		};
-		D87BCE461DE3B4260030672F /* BarcodeObject */ = {
-			isa = PBXGroup;
-			children = (
-				D87BCE431DE3B0490030672F /* BarcodeObject.hpp */,
-				D87BCE421DE3B0490030672F /* BarcodeObject.cpp */,
+				D8D472B61DF0750D00F1BA47 /* BarcodeObject.cpp */,
+				D8D472B71DF0750D00F1BA47 /* BarcodeObject.hpp */,
 			);
 			name = BarcodeObject;
+			sourceTree = "<group>";
+		};
+		D8D472BD1DF0759400F1BA47 /* CodeReader */ = {
+			isa = PBXGroup;
+			children = (
+				D8D472B81DF0750D00F1BA47 /* CodeReader.cpp */,
+				D8D472B91DF0750D00F1BA47 /* CodeReader.hpp */,
+			);
+			name = CodeReader;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		D87BCE341DE3A6FF0030672F /* cpp-user-recogniser */ = {
+		D8D472AB1DF074EF00F1BA47 /* zbar-qr-decoder */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = D87BCE3C1DE3A6FF0030672F /* Build configuration list for PBXNativeTarget "cpp-user-recogniser" */;
+			buildConfigurationList = D8D472B31DF074EF00F1BA47 /* Build configuration list for PBXNativeTarget "zbar-qr-decoder" */;
 			buildPhases = (
-				D87BCE311DE3A6FF0030672F /* Sources */,
-				D87BCE321DE3A6FF0030672F /* Frameworks */,
-				D87BCE331DE3A6FF0030672F /* CopyFiles */,
+				D8D472A81DF074EF00F1BA47 /* Sources */,
+				D8D472A91DF074EF00F1BA47 /* Frameworks */,
+				D8D472AA1DF074EF00F1BA47 /* CopyFiles */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
-			name = "cpp-user-recogniser";
-			productName = "cpp-user-recogniser";
-			productReference = D87BCE351DE3A6FF0030672F /* cpp-user-recogniser */;
+			name = "zbar-qr-decoder";
+			productName = "zbar-qr-decoder";
+			productReference = D8D472AC1DF074EF00F1BA47 /* zbar-qr-decoder */;
 			productType = "com.apple.product-type.tool";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		D87BCE2D1DE3A6FF0030672F /* Project object */ = {
+		D8D472A41DF074EF00F1BA47 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				LastUpgradeCheck = 0800;
 				ORGANIZATIONNAME = joemcalister;
 				TargetAttributes = {
-					D87BCE341DE3A6FF0030672F = {
+					D8D472AB1DF074EF00F1BA47 = {
 						CreatedOnToolsVersion = 8.0;
 						DevelopmentTeam = 9KCQBQHB3F;
 						ProvisioningStyle = Automatic;
 					};
 				};
 			};
-			buildConfigurationList = D87BCE301DE3A6FF0030672F /* Build configuration list for PBXProject "cpp-user-recogniser" */;
+			buildConfigurationList = D8D472A71DF074EF00F1BA47 /* Build configuration list for PBXProject "zbar-qr-decoder" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
 				en,
 			);
-			mainGroup = D87BCE2C1DE3A6FF0030672F;
-			productRefGroup = D87BCE361DE3A6FF0030672F /* Products */;
+			mainGroup = D8D472A31DF074EF00F1BA47;
+			productRefGroup = D8D472AD1DF074EF00F1BA47 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				D87BCE341DE3A6FF0030672F /* cpp-user-recogniser */,
+				D8D472AB1DF074EF00F1BA47 /* zbar-qr-decoder */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXSourcesBuildPhase section */
-		D87BCE311DE3A6FF0030672F /* Sources */ = {
+		D8D472A81DF074EF00F1BA47 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D87BCE391DE3A6FF0030672F /* main.cpp in Sources */,
-				D87BCE441DE3B0490030672F /* BarcodeObject.cpp in Sources */,
-				D87BCE411DE3A79F0030672F /* CodeReader.cpp in Sources */,
+				D8D472B01DF074EF00F1BA47 /* main.cpp in Sources */,
+				D8D472BB1DF0750D00F1BA47 /* CodeReader.cpp in Sources */,
+				D8D472BA1DF0750D00F1BA47 /* BarcodeObject.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin XCBuildConfiguration section */
-		D87BCE3A1DE3A6FF0030672F /* Debug */ = {
+		D8D472B11DF074EF00F1BA47 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -202,7 +202,7 @@
 			};
 			name = Debug;
 		};
-		D87BCE3B1DE3A6FF0030672F /* Release */ = {
+		D8D472B21DF074EF00F1BA47 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -242,7 +242,7 @@
 			};
 			name = Release;
 		};
-		D87BCE3D1DE3A6FF0030672F /* Debug */ = {
+		D8D472B41DF074EF00F1BA47 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				DEVELOPMENT_TEAM = 9KCQBQHB3F;
@@ -259,7 +259,7 @@
 			};
 			name = Debug;
 		};
-		D87BCE3E1DE3A6FF0030672F /* Release */ = {
+		D8D472B51DF074EF00F1BA47 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				DEVELOPMENT_TEAM = 9KCQBQHB3F;
@@ -279,24 +279,24 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		D87BCE301DE3A6FF0030672F /* Build configuration list for PBXProject "cpp-user-recogniser" */ = {
+		D8D472A71DF074EF00F1BA47 /* Build configuration list for PBXProject "zbar-qr-decoder" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				D87BCE3A1DE3A6FF0030672F /* Debug */,
-				D87BCE3B1DE3A6FF0030672F /* Release */,
+				D8D472B11DF074EF00F1BA47 /* Debug */,
+				D8D472B21DF074EF00F1BA47 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		D87BCE3C1DE3A6FF0030672F /* Build configuration list for PBXNativeTarget "cpp-user-recogniser" */ = {
+		D8D472B31DF074EF00F1BA47 /* Build configuration list for PBXNativeTarget "zbar-qr-decoder" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				D87BCE3D1DE3A6FF0030672F /* Debug */,
-				D87BCE3E1DE3A6FF0030672F /* Release */,
+				D8D472B41DF074EF00F1BA47 /* Debug */,
+				D8D472B51DF074EF00F1BA47 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = D87BCE2D1DE3A6FF0030672F /* Project object */;
+	rootObject = D8D472A41DF074EF00F1BA47 /* Project object */;
 }

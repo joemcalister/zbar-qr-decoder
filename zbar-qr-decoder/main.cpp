@@ -1,8 +1,8 @@
 //
 //  main.cpp
-//  cpp-user-recogniser
+//  zbar-qr-decoder
 //
-//  Created by Joe on 21/11/2016.
+//  Created by Joe on 01/12/2016.
 //  Copyright © 2016 joemcalister. All rights reserved.
 //
 
@@ -19,7 +19,7 @@ int main( int argc, char** argv )
 {
     // init code reader class
     CodeReader codeReader = CodeReader();
-
+    
     // setup video capture
     VideoCapture cap(0);
     

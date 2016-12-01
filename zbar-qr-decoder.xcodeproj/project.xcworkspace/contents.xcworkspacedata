@@ -2,6 +2,6 @@
 <Workspace
    version = "1.0">
    <FileRef
-      location = "self:cpp-user-recogniser.xcodeproj">
+      location = "self:zbar-qr-decoder.xcodeproj">
    </FileRef>
 </Workspace>
