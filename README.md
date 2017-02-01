@@ -14,4 +14,4 @@ Brew install ZBar
 ```
 
 ## Linker flags
--lopencv_calib3d, -lopencv_core, -lopencv_features2d, -lopencv_flann, -lopencv_highgui, -lopencv_imgproc, -lopencv_xfeatures2d, -lopencv_videoio, -lopencv_imgcodecs, -zbar
+-lopencv_calib3d -lopencv_core -lopencv_features2d -lopencv_flann -lopencv_highgui -lopencv_imgproc -lopencv_xfeatures2d -lopencv_videoio -lopencv_imgcodecs -zbar
